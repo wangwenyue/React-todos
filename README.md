@@ -1,20 +1,23 @@
 # 使用说明
-使用前确保安装好相应环境
+* 使用前确保安装好相应环境
 
-cd React-todos
-yarn install
-将localDb 放入 node_modules
-yarn run start
+* cd React-todos
 
-用浏览器打开index.html
+* yarn install
+
+* 将localDb 放入 node_modules
+
+* yarn run start
+
+* 用浏览器打开index.html
 ## 项目截图
-- 增加todo
+#### 增加todo
 ![](./src/gifs/todo_add.gif)
-- 删除todo
+#### 删除todo
 ![](./src/gifs/todo_delete.gif)
-- 标记todo
+#### 标记todo
 ![](./src/gifs/todo_flag.gif)
-- 修改todo
+#### 修改todo
 ![](./src/gifs/todo_update.gif)
 
 ## 项目地址
