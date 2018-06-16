@@ -15,13 +15,13 @@
 [React ToDoList](https://wangwenyue.github.io/React-todos/)
 
 ## 项目截图
-* 增加todo
+### 增加todo
 ![](./src/gifs/todo_add.gif)
-* 删除todo
+### 删除todo
 ![](./src/gifs/todo_delete.gif)
-* 标记todo
+### 标记todo
 ![](./src/gifs/todo_flag.gif)
-* 修改todo
+### 修改todo
 ![](./src/gifs/todo_update.gif)
 
 
