@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# 使用说明
+使用前确保安装好相应环境
 
-You can use the [editor on GitHub](https://github.com/wangwenyue/React-todos/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+cd React-todos
+yarn install
+将localDb 放入 node_modules
+yarn run start
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+用浏览器打开index.html
+## 项目截图
+- 增加todo
+![](./src/gifs/todo_add.gif)
+- 删除todo
+![](./src/gifs/todo_delete.gif)
+- 标记todo
+![](./src/gifs/todo_flag.gif)
+- 修改todo
+![](./src/gifs/todo_update.gif)
 
-### Markdown
+## 项目地址
+[React ToDoList](www.qq.com)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wangwenyue/React-todos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 项目功能
+- React-Todos是一个管理任务清单的SPA，数据使用localStorage存储在浏览器中，具有以下几点功能：
+- 在输入框输入任务名称，回车新增todo。
+- 通过改变className，标记已完成的todo。
+- 鼠标移入其中一个todo，可以删除。
+- 运用setState的callback函数，对todo进行update。
+- 能够全选所有todo，并能删除已完成的todo。
