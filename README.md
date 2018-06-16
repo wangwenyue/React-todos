@@ -23,7 +23,8 @@
 ![](./src/gifs/todo_flag.gif)
 ### 修改todo
 ![](./src/gifs/todo_update.gif)
-
+### 全选todo
+![](./src/gifs/todo_select_all.gif)
 
 ## 项目功能
 React-Todos是一个基于React框架的SPA管理任务清单，数据使用localStorage存储在浏览器中，使用webpack打包成静态页面。
