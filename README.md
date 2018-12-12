@@ -7,8 +7,6 @@
 
 * yarn install
 
-* 将localDb 放入 node_modules
-
 * yarn run start
 
 * 用浏览器打开index.html
